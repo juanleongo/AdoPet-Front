@@ -1,59 +1,30 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  background-image: url("../imagenes/back.jpg");
+}
 .contact-col{  
   display: flex;  
+  color: #fff;  
 }
 
-.imagen-container{
-  object-fit: cover;
-  height: 100%;
-  width: 90%;  
-}
-
-.titulo{
-  text-align: center;
-  color: #4f0e0e;
-  font-size: 60px;
-  text-transform: uppercase;  
-  margin: 70px 0px 20px 0px;
-  width: 50%;
-}
-
-.container-main{
-  width: 50%;
-}
-
-.parrafo{
-  text-align: justify;
-  font-size: 22px;
-  width: 75%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+.container-p{
+  margin: 30px 10px;
 }
 
 .cont-form{  
-  width: 500px; 
+  width: 40%; 
   height: auto;
-  margin: 40px  ;
-  margin-left: 100px;
+  margin: 50px  ;
+  margin-left: 150px;
   border-radius: 10px;  
   padding-top: 30px;
   padding-bottom: 20px;     
-  padding-left: 30px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
   align-items: center;
+  text-align: center;
+background-color: #0e0e0e;
 }
-
-
-figure{
-  width: 50%;
-  margin: 80px 0px 100px 8rem;
-  
-}
-
-body{
-  height: 100%;   
-  background-color: #fff6f1;
-}
-
 
 
 input{  
