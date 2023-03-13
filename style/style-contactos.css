@@ -1,59 +1,36 @@
+body{  background-image: url('../imagenes/back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-position: center ;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .contact-col{  
   display: flex;  
+  color: #fff;    
 }
 
-.imagen-container{
-  object-fit: cover;
-  height: 100%;
-  width: 90%;  
-}
-
-.titulo{
-  text-align: center;
-  color: #4f0e0e;
-  font-size: 60px;
-  text-transform: uppercase;  
-  margin: 70px 0px 20px 0px;
-  width: 50%;
-}
-
-.container-main{
-  width: 50%;
-}
-
-.parrafo{
-  text-align: justify;
-  font-size: 22px;
-  width: 75%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-}
-
-.cont-form{  
-  width: 500px; 
-  height: auto;
-  margin: 40px  ;
-  margin-left: 100px;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;     
-  padding-left: 30px; 
-  align-items: center;
-}
-
-
-figure{
-  width: 50%;
-  margin: 80px 0px 100px 8rem;
+.container-p{
+  margin: 20px 10px;
+  font-size: 1.4rem;
   
 }
 
-body{
-  height: 100%;   
-  background-color: #fff6f1;
+.cont-form{  
+  width: 40%; 
+  height: auto;
+  margin: 50px  ;
+  margin-left: 150px;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;     
+  padding-left: 20px; 
+  padding-right: 20px; 
+  align-items: center;
+  text-align: center;
+  background-color: #0e0e0e;
+  
 }
-
 
 
 input{  
@@ -75,8 +52,7 @@ textarea{
   height: 150px; 
   border-radius: 5px;  
   border-style: solid; 
-  border-width: 1px;
-  
+  border-width: 1px;  
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -85,7 +61,7 @@ textarea{
 
 
 label{
-  font-size: 20px;
+  font-size: 1.4rem;
   display: block; 
   float: center;  
 }
@@ -99,47 +75,30 @@ button{
   margin-top: 10px;   
   text-transform: uppercase;
   font-size: 20px;
-  background-color: #ffb882;
   border-style: solid; 
   border-radius: 10px;  
   width: 420px;   
   cursor: pointer;
 }
+
+
 span{
   color: #ab4493; 
 }
-
-
 .aviso{
   font-size: 13px;  
   color: #0e0e0e;  
 }
-
-
-h1{
-  font-size: 39px;  
+.titulo{
+  font-size: 3rem;  
   text-align: letf; 
-  padding-bottom: 20px; 
-  
+  padding-bottom: 20px;  
 }
 
 ::-webkit-input-placeholder {
  color: #a8a8a8;
 }
 
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-.container{
-  width: 100%;
-  height: 100vh;
-  background: #3c5077;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .btn{
   padding: 10px 60px;
@@ -150,7 +109,11 @@ h1{
   font-size: 22px;
   font-weight: 500px;
   border-radius: 30px;
+  
+  color: #fff;
+  
 }
+
 .popup{
   width: 400px;
   background: #fff;
@@ -198,5 +161,33 @@ h1{
   font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+
+
+@media (min-width: 640px){
+  .titulo{
+    font-size: 1.8rem;     
+  }
+  .btn{
+    width: 150px;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 840px){
+  .titulo{
+    font-size: 2.2rem;     
+  }
+  .btn{
+    width: 200px;
+  }
+}
+@media (min-width: 1050px){
+  .titulo{
+    font-size: 2.5rem;     
+  }
+  .btn{
+    width: 75%;
+  }
 }
 
