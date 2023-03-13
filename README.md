@@ -1,2 +1,2 @@
-# AdoPet
-red social para adopcion de mascotas 
+#AdoPet
+red social para la aopcion de aniales en situacion de calle 
