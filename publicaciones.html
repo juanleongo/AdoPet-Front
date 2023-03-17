@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="./style/post.css">
+</head>
+<body>
+  <h1 class="titulo">Formulario Publicaciones</h1>
+  <form id="formulario">
+    <div class="campo">
+      <label 
+      for="imagen" class="forml">Imagen:
+    </label>
+      <input type="file" class="tamanio" id="imagen" name="imagen">
+    </div>
+    <div class="campo">
+      <label 
+      for="color" class="forml">Sexo:
+    </label>
+      <input type="text" class="tamanio" id="Sexo" name="Sexo">
+    </div>
+    <div class="campo">
+      <label 
+      
+      for="tamano" class="forml">Tamaño:
+
+      </label>
+      <select class="tamanio" id="tamano" name="tamano">
+        <option value=""></option>
+        <option value="pequeno">Pequeño</option>
+        <option value="mediano">Mediano</option>
+        <option value="grande">Grande</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label for="descripcion" class="forml">Descripción:</label>
+      <textarea class="tamanio" id="descripcion" name="descripcion" ></textarea>
+    </div>
+    <button type="submit" class="boton">Enviar</button>
+  </form>
+ 
+</body>
+<script src="publicaciones2.js"></script>
+</html>
+  
